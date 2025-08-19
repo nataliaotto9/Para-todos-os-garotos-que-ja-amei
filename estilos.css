@@ -22,11 +22,11 @@ nav {
     align-items: center;
     padding: 16px 32px;
     z-index: 1000;
-    transition: 0.3s ease, box-shadow 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 nav.scrolled {
-    background: #006241; 
+    background: #006241;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -54,8 +54,7 @@ nav ul li a:hover {
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0') 
-    no-repeat center center/cover;
+    background: url('https://cdn.ome.lt/l8V94hPROnItFXCSx5tVR1yFffs=/1200x630/smart/extras/conteudos/para-todos-os-garotos-ps-ainda-amo-voce_RjDbEOm.jpg') no-repeat center center/cover;
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -63,7 +62,7 @@ header {
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
     padding: 0 16px;
-    padding-top: 60px; 
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -71,5 +70,8 @@ header h1 {
     font-size: 48px;
     max-width: 700px;
     line-height: 1.2;
-    
+    animation: fadeInDown 1.5s ease forwards;
 }
+    
+
+
